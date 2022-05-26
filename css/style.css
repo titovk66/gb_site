@@ -274,8 +274,6 @@ body {
     flex-direction: column;
 }
 
-.card__img {}
-
 .card__body {
     padding: 25px 29px 20px 16px;
 }
