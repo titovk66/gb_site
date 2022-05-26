@@ -1,0 +1,318 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #222222;
+}
+
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+
+.header__left {
+    display: flex;
+    align-items: flex-end;
+}
+
+.header__logo {
+    margin-right: 41px;
+}
+
+.header__search {
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+}
+
+.header__list li {
+    margin-right: 33px;
+}
+
+.header__list li:last-child {
+    margin: 0;
+}
+
+.brand {
+    height: 764px;
+    background: #F1E4E6;
+    background-image: url(../img/men.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.brand__row {
+    position: relative;
+}
+
+.brand__body {
+    display: flex;
+    position: absolute;
+    top: 290px;
+    right: 91px;
+    width: 405px;
+}
+
+.brand__text {
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+    margin-left: 16px;
+    font-weight: 700;
+}
+
+.brand__textbold {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 900;
+}
+
+.brand__textcolor {
+    color: #F16D7F;
+}
+
+.offer {
+    margin: 65px 0 96px 0;
+}
+
+.offer__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.offer__item {
+    position: relative;
+}
+
+.offer__item:last-child {
+    margin-top: 30px;
+}
+
+.offer__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.text__women {
+    position: absolute;
+    top: 105px;
+    left: 103px;
+}
+
+.text__men {
+    position: absolute;
+    top: 105px;
+    left: 125px;
+}
+
+.text__kids {
+    position: absolute;
+    top: 105px;
+    left: 123px;
+}
+
+.text__accer {
+    position: absolute;
+    top: 65px;
+    left: 491px;
+}
+
+.offer__textcolor {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #F16D7F;
+}
+
+.items {
+    margin: 96px 0;
+}
+
+.items__title {
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.items__text {
+    color: #9F9F9F;
+    text-align: center;
+}
+
+.text {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.items__card {
+    padding: 48px 0 18px 0;
+}
+
+.card__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.card__column {
+    padding: 0 15px;
+    flex: 0 1 33.333%;
+}
+
+.column__body {
+    background: #F8F8F8;
+    margin-bottom: 30px;
+}
+
+.column__row {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__img {}
+
+.card__body {
+    padding: 25px 29px 20px 16px;
+}
+
+.card__title {
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.card__text {
+    color: #5D5D5D;
+    padding: 12px 0 18px 0;
+}
+
+.card__link {
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+}
+
+.items__buttom {
+    display: flex;
+    justify-content: center;
+}
+
+.items__btn {
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    border: 1px solid #FF6A6A;
+    padding: 14px 38px;
+
+
+}
+
+.items__btn:hover {
+    background: #F16D7F;
+    color: #FFFFFF;
+}
