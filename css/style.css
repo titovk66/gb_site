@@ -632,8 +632,6 @@ body {
 
 .loyalty__button {
     background: #F16D7F;
-    display: flex;
-    width: 167px;
     padding: 16px 66px 17px 28px;
     font-weight: 400;
     font-size: 14px;
