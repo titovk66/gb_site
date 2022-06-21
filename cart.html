@@ -9,8 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/148270d395.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="scss/style.css">
-    <title>Registration</title>
+    <title>Cart</title>
 </head>
 
 <body>
@@ -61,50 +62,78 @@
     </header>
     <section class="breadcrumb">
         <div class="container">
-            <p class="breadcrumb__title">REGISTRATION</p>
+            <p class="breadcrumb__title">SHOPPING CART</p>
         </div>
     </section>
-    <section class="loyalty">
+    <section class="cart">
         <div class="container">
-            <div class="loyalty__row">
-                <form action="#" class="loyalty__form">
-                    <div class="form__name">
-                        <label for="name">Your Name</label>
-                        <input type="text" class="form__input" placeholder="First Name">
-                        <input type="text" class="form__input" placeholder="Last Name">
+            <div class="cart__wrap">
+                <div class="cart__body">
+                    <article class="cart__row">
+                        <div class="cart__item">
+                            <a href="product.html" class="item__row">
+                                <div class="cart__img"><img src="img/cart_1.jpg" alt="cart_1"></div>
+                            </a>
+                            <div class="item__box">
+                                <h3 class="cart__title">MANGO PEOPLE <br> T-SHIRT</h3>
+                                <ul class="item__menu">
+                                    <li class="item__list">Price: <span class="item__listcolor">$300</span></li>
+                                    <li class="item__list">Color: Red</li>
+                                    <li class="item__list">Size: Xl </li>
+                                    <li class="item__list">Quantity: <input type="number" min="1" max="10"></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- <i class="fa-solid fa-xmark"></i> -->
+                    </article>
+                    <article class="cart__row">
+                        <div class="cart__item">
+                            <a href="product.html" class="item__row">
+                                <div class="cart__img"><img src="img/cart_2.jpg" alt="cart_1"></div>
+                            </a>
+                            <div class="item__box">
+                                <h3 class="cart__title">MANGO PEOPLE <br> T-SHIRT</h3>
+                                <ul class="item__menu">
+                                    <li class="item__list">Price: <span class="item__listcolor">$300</span></li>
+                                    <li class="item__list">Color: Red</li>
+                                    <li class="item__list">Size: Xl </li>
+                                    <li class="item__list">Quantity: <input type="number" min="1" max="10"></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- <i class="fa-solid fa-xmark"></i> -->
+                    </article>
+                    <div class="cart__button">
+                        <button class="cart__button-left" type="submit">
+                            <a href="#" class="cart__btn">CLEAR SHOPPING CART</a>
+                        </button>
+                        <button class="cart__button-rigth" type="submit">
+                            <a href="catalog.html" class="cart__btn">CONTINUE SHOPPING</a>
+                        </button>
                     </div>
-                    <div class="form__radio">
-                        <label><input type="radio" class="radio" name="pol">Male</label>
-                        <label><input type="radio" class="radio" name="pol">Female</label>
+                </div>
+                <div class="cart__data">
+                    <h3 class="form__title">SHIPPING ADRESS</h3>
+                    <form action="#" class="cart__form">
+                        <input type="text" class="cart__input" placeholder="Country">
+                        <input type="text" class="cart__input" placeholder="City">
+                        <input type="text" class="cart__input" placeholder="Postcode / Zip">
+                        <div class="cart__btn-data">
+                            <button class="form__button" type="submit">GET A QUOTE</button>
+                        </div>
+                    </form>
+                    <div class="cart__check">
+                        <p class="check__text-sub">SUB TOTAL<span class="check__textsub">$900</span></p>
+                        <p class="check__text-total">GRAND TOTAL<span class="check__textcolor">$900</span></p>
+                        <hr class="check-hr">
+                        <div class="cart__check-btn">
+                            <button class="check__button" type="submit">PROCEED TO CHECKOUT</button>
+                        </div>
                     </div>
-                    <div class="form__name">
-                        <label for="name">Login details</label>
-                        <input type="email" class="form__input" placeholder="Email">
-                        <input type="password" class="form__input" placeholder="Password">
-                    </div>
-                    <p class="form__text">Please use 8 or more characters, with at least 1 number and a mixture of
-                        uppercase and lowercase letters</p>
-                    <div class="button">
-                        <button class="loyalty__button" type="submit">JOIN NOW</button>
-                    </div>
-                </form>
-                <article class="loyalty__body">
-                    <h2 class="loyalty__title">LOYALTY HAS ITS PERKS</h2>
-                    <p class="loyalty__text">Get in on the loyalty program where you can earn points and unlock serious
-                        perks. Starting with these as soon as you join:</p>
-                    <ul class="loyalty__menu">
-                        <li>15% off welcome offer
-                        </li>
-                        <li>Free shipping, returns and exchanges on all orders
-                        </li>
-                        <li>$10 off a purchase on your birthday
-                        </li>
-                        <li>Early access to products</li>
-                        <li>Exclusive offers & rewards</li>
-                    </ul>
-                </article>
+                </div>
             </div>
         </div>
+
     </section>
     <footer>
         <section class="frame">

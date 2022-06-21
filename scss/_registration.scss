@@ -1,0 +1,150 @@
+.breadcrumb {
+    background: #F8F3F4;
+}
+
+.breadcrumb__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.breadcrumb__menu {
+    display: flex;
+}
+
+.breadcrumb-item {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+}
+
+.breadcrumb-item::after {
+    content: "/";
+    padding: 0 5px;
+}
+
+.active {
+    color: #F16D7F;
+}
+
+.active::after {
+    color: #F16D7F;
+    content: "";
+    padding: 0;
+}
+
+.breadcrumb__title {
+    padding: 60px 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+}
+
+.loyalty {
+    margin: 64px 0 96px 0;
+}
+
+.loyalty__row {
+    display: flex;
+}
+
+.loyalty__form {
+    display: flex;
+    flex-direction: column;
+    flex: 60%;
+}
+
+.form__name {
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.form__input {
+    border: 1px solid #A4A4A4;
+    padding: 13px 17px 16px 17px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    margin-top: 21px;
+}
+
+.form__radio {
+    margin: 31px 0;
+}
+
+.form__radio input {
+    margin-right: 10px;
+    transform: scale(1.33);
+}
+
+.form__radio label {
+    margin-right: 20px;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+    display: inline-flex;
+}
+
+.form__text {
+    margin: 15px 0 39px 0;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+}
+
+.loyalty__button {
+    background: #F16D7F;
+    padding: 16px 66px 17px 28px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    border: 1px solid #F16D7F;
+    position: relative;
+}
+
+.loyalty__button::after {
+    content: url(../img/arrow.svg);
+    position: absolute;
+    left: 121px;
+}
+
+.loyalty__body {
+    margin-left: 128px;
+}
+
+.loyalty__title {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.loyalty__text {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    padding: 22px 0;
+}
+
+.loyalty__menu li {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 16px;
+    background-image: url(../img/icon.svg);
+    background-repeat: no-repeat;
+    padding-left: 42px;
+    background-position: 0;
+}

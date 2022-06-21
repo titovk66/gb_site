@@ -1,0 +1,134 @@
+.cat-items {
+    margin: 35px 0 96px 0;
+}
+
+.cat-card {
+    padding: 48px 0 18px 0;
+}
+
+.items__bar {
+    height: 50px;
+    position: relative;
+}
+
+.items__det {
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    padding: 16px;
+}
+
+.sum__filter {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.sum__filter::after {
+    content: url(../img/filter.svg);
+    padding-right: 0.5em;
+    margin-left: 11px;
+}
+
+.items__det[open]>.sum__filter {
+    color: #EF5B70;
+}
+
+.items__det[open] {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.sum__cat {
+    list-style-type: none;
+    border-bottom: 1px solid #EBEBEB;
+    border-left: 5px solid #EF5B70;
+    width: 328px;
+    padding: 11px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #EF5B70;
+    cursor: pointer;
+    margin-top: 18px;
+}
+
+.sum__link {
+    margin: 24px 0;
+}
+
+.items__details {
+    display: flex;
+    position: absolute;
+    left: 390px;
+    top: 16px;
+}
+
+.bar__det {
+    position: relative;
+}
+
+.sum__bar {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    cursor: pointer;
+}
+
+.sum__form {
+    display: flex;
+    flex-direction: column;
+    margin-left: -10px;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 1;
+    width: 79px;
+}
+
+.sum__form label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6F6E6E;
+    margin-bottom: 10px;
+}
+
+.sum__form label:last-child {
+    margin-bottom: 0;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.sum__bar::after {
+    content: "\f107";
+    font-family: FontAwesome;
+    margin-left: 10px;
+    margin-right: 28px;
+}
+
+.pagination {
+    display: inline-flex;
+    justify-content: center;
+    border: 1px solid #EBEBEB;
+    padding: 12px 40px;
+}
+
+.pagination li {
+    margin-right: 15px;
+}
+
+.pagination li:last-child {
+    margin-right: 0;
+}
+
+.nav__pagination {
+    text-align: center;
+}
