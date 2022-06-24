@@ -1,5 +1,5 @@
 .items {
-    margin: 96px 0;
+    margin: 66px 0 96px 0;
 }
 
 .items__title {
@@ -129,3 +129,5 @@
     background: #F16D7F;
     color: #FFFFFF;
 }
+
+@import "../scss/media";

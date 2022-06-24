@@ -1,25 +1,33 @@
 .offer {
-    margin: 65px 0 96px 0;
+    margin-top: 65px;
 }
 
 .offer__row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 0 -15px;
+}
+
+.offer__wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    // margin-bottom: 30px;
 }
 
 .offer__item {
     position: relative;
     margin-bottom: 30px;
+    padding: 0 15px;
 }
 
 .item__body:hover .item__img {
     filter: brightness(30%);
 }
 
-.offer__item:last-child {
-    margin-bottom: 0;
-}
+// .offer__item:last-child {
+//     margin-bottom: 0;
+// }
 
 .item__img img {
     width: 100%;
@@ -64,3 +72,5 @@
     text-align: center;
     color: #F16D7F;
 }
+
+@import "../scss/media";

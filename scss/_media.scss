@@ -1,0 +1,220 @@
+@media (max-width: 1024px) {
+    .brand__img {
+        height: auto;
+        flex: 1 1 82%;
+        margin-right: 39px;
+    }
+
+    .brand__text {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .brand__textbold {
+        font-size: 44px;
+        line-height: 53px;
+    }
+
+    .offer__wrap {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .text__women {
+        position: absolute;
+        top: 59px;
+        left: 49px;
+    }
+
+    .text__men {
+        position: absolute;
+        top: 57px;
+        left: 61px;
+    }
+
+    .text__kids {
+        position: absolute;
+        top: 58px;
+        left: 59px;
+    }
+
+    .text__accer {
+        position: absolute;
+        top: 33px;
+        left: 288px;
+    }
+
+    .offer__row {
+        margin: 0 -10px;
+    }
+
+    .offer__item {
+        margin-bottom: 20px;
+        padding: 0 10px;
+    }
+
+    .offer {
+        margin-top: 20px;
+    }
+
+    .items {
+        margin: 134px 0 65px;
+    }
+
+    .card__row {
+        margin: 0 -8px;
+    }
+
+    .card__column {
+        padding: 0 8px;
+    }
+
+    .column__body {
+        margin-bottom: 16px;
+    }
+
+    .feature__row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature__item {
+        margin-top: 48px;
+    }
+
+    .feature {
+        padding: 0 0 64px;
+    }
+
+    .frame__row {
+        flex-direction: column;
+    }
+
+    .frame__text {
+        margin-bottom: 48px;
+        padding: 0 27%;
+    }
+
+    .frame__form {
+        margin-bottom: 140px;
+    }
+
+    .sec__row {
+        margin: 0 32px;
+    }
+}
+
+@media (max-width: 667px) {
+
+
+    .brand__img {
+        display: none;
+    }
+
+    .brand__body {
+        padding: 148px 56px;
+        width: 100%;
+    }
+
+    .brand__text {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .brand__textbold {
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .offer {
+        margin-top: 65px;
+    }
+
+    .offer__wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .offer__item {
+        margin-bottom: 30px;
+    }
+
+    .text__women {
+        position: absolute;
+        top: 98px;
+        left: 95px;
+    }
+
+    .text__men {
+        position: absolute;
+        top: 101px;
+        left: 120px;
+    }
+
+    .text__kids {
+        position: absolute;
+        top: 105px;
+        left: 125px;
+    }
+
+    .text__accer {
+        position: absolute;
+        top: 30px;
+        left: 100px;
+    }
+
+    .item_acc {
+        height: 30vw;
+    }
+
+    .item_acc img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .items {
+        margin: 34px 0 96px;
+    }
+
+    .card__row {
+        margin: 0 -15px;
+    }
+
+    .card__column {
+        padding: 0 15px;
+    }
+
+    .frame__text {
+        margin-bottom: 59px;
+        padding: 0 4%;
+    }
+
+    .frame__paragbtm {
+        font-size: 14px;
+    }
+
+    .sec__row {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+
+    .sec__copy {
+        margin: 30px 0 9px;
+    }
+
+    .sec__menu {
+        margin-top: 43px;
+    }
+
+
+}
+
+@media (max-width:375px) {
+    .list_reg {
+        display: none;
+    }
+
+    .list_cart {
+        display: none;
+    }
+}

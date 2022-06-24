@@ -11,7 +11,7 @@
 
 .feature__column {
     padding: 0 15px;
-    flex: 0 1 33.333%;
+    max-width: 360px;
     display: flex;
 }
 
@@ -42,3 +42,5 @@
     font-weight: 300;
     padding-top: 16px;
 }
+
+@import "../scss/media";
