@@ -41,16 +41,14 @@
 }
 
 .prod__body {
-    position: relative;
+    transform: translateY(-64px);
+    margin-bottom: 64px;
 }
 
 .prod__row {
     border: 1px solid #EAEAEA;
     text-align: center;
-    margin-top: -64px;
     background: #FFFFFF;
-    margin-bottom: 128px;
-    position: inherit;
 }
 
 .prod__title {

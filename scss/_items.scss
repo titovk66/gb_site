@@ -27,17 +27,17 @@
 .card__row {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -15px;
+    justify-content: space-between;
 }
 
 .card__column {
-    padding: 0 15px;
-    flex: 0 1 33.333%;
+    width: 31.5%;
+    margin-bottom: 30px;
 }
 
 .column__body {
     background: #F8F8F8;
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
     position: relative;
 }
 
@@ -48,6 +48,8 @@
 
 .column__body:hover {
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
 
 .column__body:hover .card__img {
@@ -62,6 +64,10 @@
     font-size: 13px;
     line-height: 16px;
     color: #000000;
+}
+
+.card__img img {
+    width: 100%;
 }
 
 .card__text {
@@ -123,6 +129,7 @@
     color: #F26376;
     border: 1px solid #FF6A6A;
     padding: 14px 38px;
+    transition: all 0.5s;
 }
 
 .items__btn:hover {

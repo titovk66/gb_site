@@ -4,32 +4,40 @@
 
 .offer__row {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0 -15px;
+    flex-direction: column;
+
 }
 
 .offer__wrap {
     display: flex;
-    flex-wrap: nowrap;
-    // margin-bottom: 30px;
+    justify-content: space-between;
+
 }
 
 .offer__item {
-    position: relative;
     margin-bottom: 30px;
-    padding: 0 15px;
+    width: 31.5%;
+    position: relative;
+}
+
+.offer__item-acc {
+    position: relative;
 }
 
 .item__body:hover .item__img {
     filter: brightness(30%);
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
 
-// .offer__item:last-child {
-//     margin-bottom: 0;
-// }
+.item__body-acc:hover .item__img-acc {
+    filter: brightness(30%);
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
 
-.item__img img {
+.item__img img,
+.item__img-acc img {
     width: 100%;
 }
 
@@ -43,26 +51,26 @@
 
 .text__women {
     position: absolute;
-    top: 105px;
-    left: 103px;
+    top: 45%;
+    left: 30%;
 }
 
 .text__men {
     position: absolute;
-    top: 105px;
-    left: 125px;
+    top: 45%;
+    left: 35%;
 }
 
 .text__kids {
     position: absolute;
-    top: 105px;
-    left: 123px;
+    top: 45%;
+    left: 35%;
 }
 
 .text__accer {
     position: absolute;
-    top: 65px;
-    left: 491px;
+    top: 45%;
+    left: 43%;
 }
 
 .item__textcolor {

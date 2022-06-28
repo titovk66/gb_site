@@ -1,4 +1,4 @@
-@media (max-width: 1024px) {
+@media (max-width:1140px) {
     .brand__img {
         height: auto;
         flex: 1 1 82%;
@@ -15,64 +15,6 @@
         line-height: 53px;
     }
 
-    .offer__wrap {
-        display: flex;
-        flex-wrap: nowrap;
-    }
-
-    .text__women {
-        position: absolute;
-        top: 59px;
-        left: 49px;
-    }
-
-    .text__men {
-        position: absolute;
-        top: 57px;
-        left: 61px;
-    }
-
-    .text__kids {
-        position: absolute;
-        top: 58px;
-        left: 59px;
-    }
-
-    .text__accer {
-        position: absolute;
-        top: 33px;
-        left: 288px;
-    }
-
-    .offer__row {
-        margin: 0 -10px;
-    }
-
-    .offer__item {
-        margin-bottom: 20px;
-        padding: 0 10px;
-    }
-
-    .offer {
-        margin-top: 20px;
-    }
-
-    .items {
-        margin: 134px 0 65px;
-    }
-
-    .card__row {
-        margin: 0 -8px;
-    }
-
-    .card__column {
-        padding: 0 8px;
-    }
-
-    .column__body {
-        margin-bottom: 16px;
-    }
-
     .feature__row {
         flex-direction: column;
         align-items: center;
@@ -86,26 +28,111 @@
         padding: 0 0 64px;
     }
 
+
+}
+
+@media (max-width:1024px) {
+    .content {
+        padding: 0 2%;
+    }
+
+    .offer {
+        margin-top: 2%;
+    }
+
+    .offer__item {
+        margin-bottom: 2.5%;
+    }
+
+    .card__column {
+        width: 48.5%;
+        margin-bottom: 3%;
+    }
+
     .frame__row {
         flex-direction: column;
     }
 
     .frame__text {
         margin-bottom: 48px;
-        padding: 0 27%;
+        padding: 0 24%;
     }
 
     .frame__form {
         margin-bottom: 140px;
     }
 
-    .sec__row {
-        margin: 0 32px;
+}
+
+@media (min-width:767px) and (max-width:1024px) {
+    .text__women {
+        top: 45%;
+        left: 17%;
+    }
+
+    .text__men {
+        position: absolute;
+        top: 45%;
+        left: 25%;
+    }
+
+    .text__kids {
+        position: absolute;
+        top: 45%;
+        left: 25%;
+    }
+
+    .text__accer {
+        position: absolute;
+        top: 40%;
+        left: 40%;
     }
 }
 
-@media (max-width: 667px) {
+@media (max-width:767px) {
+    .content {
+        padding: 0 2%;
+    }
 
+    .offer__wrap {
+        flex-wrap: wrap;
+    }
+
+    .offer__item {
+        width: 100%;
+    }
+
+    .item__img {
+        width: 100%;
+
+    }
+
+    .item__img img {
+        max-height: 250px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+
+    .item__img-acc img {
+        height: 111px;
+        object-fit: cover;
+    }
+
+
+    .text__accer {
+        top: 20%;
+        left: 30%;
+    }
+
+    .card__column {
+        width: 100%;
+        margin-bottom: 3%;
+    }
+
+    .sec__row {
+        margin: 0 32px;
+    }
 
     .brand__img {
         display: none;
@@ -130,58 +157,13 @@
         margin-top: 65px;
     }
 
-    .offer__wrap {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .offer__item {
-        margin-bottom: 30px;
-    }
-
-    .text__women {
-        position: absolute;
-        top: 98px;
-        left: 95px;
-    }
-
-    .text__men {
-        position: absolute;
-        top: 101px;
-        left: 120px;
-    }
-
-    .text__kids {
-        position: absolute;
-        top: 105px;
-        left: 125px;
-    }
-
     .text__accer {
-        position: absolute;
-        top: 30px;
-        left: 100px;
+        top: 30%;
+        left: 27%;
     }
 
-    .item_acc {
-        height: 30vw;
-    }
-
-    .item_acc img {
-        height: 100%;
-        object-fit: cover;
-    }
-
-    .items {
-        margin: 34px 0 96px;
-    }
-
-    .card__row {
-        margin: 0 -15px;
-    }
-
-    .card__column {
-        padding: 0 15px;
+    .content {
+        padding: 0 2%;
     }
 
     .frame__text {
@@ -191,6 +173,33 @@
 
     .frame__paragbtm {
         font-size: 14px;
+    }
+
+}
+
+@media (min-width:550px) and (max-width:767px) {
+    .column__row {
+        flex-direction: row;
+    }
+
+    .card__img img {
+        width: auto;
+    }
+
+    .column__add {
+        left: 17%;
+        justify-content: start;
+    }
+
+}
+
+@media (max-width:375px) {
+    .list_reg {
+        display: none;
+    }
+
+    .list_cart {
+        display: none;
     }
 
     .sec__row {
@@ -206,15 +215,7 @@
         margin-top: 43px;
     }
 
-
-}
-
-@media (max-width:375px) {
-    .list_reg {
-        display: none;
-    }
-
-    .list_cart {
-        display: none;
+    .frame__email {
+        max-width: 256px;
     }
 }
