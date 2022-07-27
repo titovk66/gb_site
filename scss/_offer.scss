@@ -42,43 +42,37 @@
 }
 
 .item__text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+    @include txt (400, 100%, 120%, #FFFFFF);
     text-align: center;
-    color: #FFFFFF;
 }
 
 .text__women {
     position: absolute;
-    top: 45%;
-    left: 30%;
+    top: 42%;
+    left: 25%;
 }
 
 .text__men {
     position: absolute;
-    top: 45%;
-    left: 35%;
+    top: 42%;
+    left: 32%;
 }
 
 .text__kids {
     position: absolute;
-    top: 45%;
-    left: 35%;
+    top: 42%;
+    left: 30%;
 }
 
 .text__accer {
     position: absolute;
-    top: 45%;
-    left: 43%;
+    top: 35%;
+    left: 40%;
 }
 
 .item__textcolor {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
+    @include txt (700, 150%, 180%, #F16D7F);
     text-align: center;
-    color: #F16D7F;
 }
 
 @import "../scss/media";

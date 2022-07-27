@@ -45,18 +45,12 @@
 }
 
 .box__heading {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    color: #000000;
+    @include txt (700, 14px, 17px, #000000);
     padding: 37px 0 15px 0;
 }
 
 .item__heading {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    color: #F16D7F;
+    @include txt (400, 14px, 17px, #F16D7F);
     margin-bottom: 12px;
     margin-top: 9px;
 }
@@ -64,10 +58,7 @@
 .item__link {
     display: block;
     padding-left: 22px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    color: #6F6E6E;
+    @include txt (400, 14px, 17px, #6F6E6E);
     margin-bottom: 11px;
 }
 

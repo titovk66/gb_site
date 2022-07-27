@@ -3,9 +3,7 @@
 }
 
 .items__title {
-    font-size: 30px;
-    line-height: 36px;
-    color: #222222;
+    @include txt (400, 30px, 36px, #222222);
     text-align: center;
     margin-bottom: 6px;
 }
@@ -33,37 +31,31 @@
 .card__column {
     width: 31.5%;
     margin-bottom: 30px;
+    background: #F8F8F8;
 }
 
 .column__body {
-    background: #F8F8F8;
-    // margin-bottom: 30px;
     position: relative;
 }
 
-.column__row {
-    display: flex;
-    flex-direction: column;
+.column__link {
+    display: block;
 }
 
-.column__body:hover {
+.card__column:hover {
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
-    transform: scale(1.1);
-    transition: all 0.5s;
 }
 
-.column__body:hover .card__img {
+.card__column:hover .card__img {
     filter: brightness(30%);
 }
 
-.card__body {
+.card__desc {
     padding: 25px 29px 20px 16px;
 }
 
 .card__title {
-    font-size: 13px;
-    line-height: 16px;
-    color: #000000;
+    @include txt (400, 13px, 16px, #000000);
 }
 
 .card__img img {
@@ -76,15 +68,13 @@
 }
 
 .card__price {
-    font-size: 16px;
-    line-height: 19px;
-    color: #F16D7F;
+    @include txt (400, 16px, 19px, #F16D7F);
 }
 
 .column__add {
     display: none;
     position: absolute;
-    top: 188px;
+    top: 45%;
     width: 100%;
     justify-content: center;
     pointer-events: none;
@@ -104,13 +94,10 @@
 }
 
 .add__text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    color: #FFFFFF;
+    @include txt (400, 14px, 17px, #FFFFFF);
 }
 
-.column__body:hover .column__add {
+.card__column:hover .column__add {
     display: flex;
 }
 
@@ -124,9 +111,7 @@
 }
 
 .items__btn {
-    font-size: 16px;
-    line-height: 19px;
-    color: #F26376;
+    @include txt (400, 16px, 19px, #F26376);
     border: 1px solid #FF6A6A;
     padding: 14px 38px;
     transition: all 0.5s;

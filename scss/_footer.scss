@@ -21,12 +21,10 @@
 }
 
 .frame__text {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
+    @include txt (400, 20px, 24px, #222224);
     text-align: center;
-    padding: 0 105px;
     margin-bottom: 126px;
+    max-width: 360px;
 }
 
 .frame__item {
@@ -38,19 +36,13 @@
 }
 
 .frame__paragtop {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 40px;
+    @include txt (700, 24px, 40px, #222224);
     text-align: center;
-    color: #222224;
 }
 
 .frame__paragbtm {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
+    @include txt (400, 18px, 30px, #222224);
     text-align: center;
-    color: #222224;
     margin-bottom: 32px;
 }
 
@@ -66,11 +58,8 @@
     background: #E1E1E1;
     border-bottom-left-radius: 25px;
     border-top-left-radius: 25px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
+    @include txt (400, 14px, 17px, #222224);
     align-items: center;
-    color: #222224;
     opacity: 0.67;
     padding: 0 22px;
 }
@@ -82,12 +71,9 @@
     border: 1px solid #E1E1E1;
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
+    @include txt (400, 14px, 17px, #F26376);
     align-items: center;
     text-align: center;
-    color: #F26376;
     transition: all 0.3s;
 }
 
@@ -108,10 +94,7 @@
 }
 
 .sec__copy {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #FBFBFB;
+    @include txt (400, 16px, 19px, #FBFBFB);
     margin: 30px 0;
 }
 

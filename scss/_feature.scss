@@ -29,10 +29,7 @@
 }
 
 .feature__title {
-    font-weight: 400;
-    font-size: 19.96px;
-    line-height: 24px;
-    color: #FBFBFB;
+    @include txt (400, 19.96px, 24px, #FBFBFB);
 }
 
 .feature__text {

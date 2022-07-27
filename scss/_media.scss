@@ -1,8 +1,18 @@
-@media (max-width:1140px) {
-    .brand__img {
-        height: auto;
-        flex: 1 1 82%;
-        margin-right: 39px;
+@media (max-width:1600px) {
+    .brand__body {
+        min-width: 405px;
+    }
+
+}
+
+@media (max-width:1024px) {
+    .content {
+        padding: 0 2%;
+    }
+
+    .brand__body {
+        margin: 0px 33px 0px 39px;
+        min-width: 311px;
     }
 
     .brand__text {
@@ -12,7 +22,15 @@
 
     .brand__textbold {
         font-size: 44px;
-        line-height: 53px;
+        line-height: 52px;
+    }
+
+    .offer {
+        margin-top: 2%;
+    }
+
+    .offer__item {
+        margin-bottom: 2.5%;
     }
 
     .feature__row {
@@ -28,25 +46,13 @@
         padding: 0 0 64px;
     }
 
-
 }
 
-@media (max-width:1024px) {
-    .content {
-        padding: 0 2%;
-    }
-
-    .offer {
-        margin-top: 2%;
-    }
-
-    .offer__item {
-        margin-bottom: 2.5%;
-    }
-
+@media (max-width:769px) {
     .card__column {
         width: 48.5%;
         margin-bottom: 3%;
+        transition: all 0.5s;
     }
 
     .frame__row {
@@ -55,37 +61,10 @@
 
     .frame__text {
         margin-bottom: 48px;
-        padding: 0 24%;
     }
 
     .frame__form {
         margin-bottom: 140px;
-    }
-
-}
-
-@media (min-width:767px) and (max-width:1024px) {
-    .text__women {
-        top: 45%;
-        left: 17%;
-    }
-
-    .text__men {
-        position: absolute;
-        top: 45%;
-        left: 25%;
-    }
-
-    .text__kids {
-        position: absolute;
-        top: 45%;
-        left: 25%;
-    }
-
-    .text__accer {
-        position: absolute;
-        top: 40%;
-        left: 40%;
     }
 }
 
@@ -94,40 +73,23 @@
         padding: 0 2%;
     }
 
-    .offer__wrap {
-        flex-wrap: wrap;
+    .brand__body {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        min-width: 263px;
+        padding: 148px 45px;
+        flex-grow: 1;
     }
 
-    .offer__item {
-        width: 100%;
+    .brand__text {
+        font-size: 20px;
+        line-height: 24px;
     }
 
-    .item__img {
-        width: 100%;
-
-    }
-
-    .item__img img {
-        max-height: 250px;
-        object-fit: cover;
-        object-position: top;
-    }
-
-
-    .item__img-acc img {
-        height: 111px;
-        object-fit: cover;
-    }
-
-
-    .text__accer {
-        top: 20%;
-        left: 30%;
-    }
-
-    .card__column {
-        width: 100%;
-        margin-bottom: 3%;
+    .brand__textbold {
+        font-size: 38px;
+        line-height: 45px;
     }
 
     .sec__row {
@@ -138,57 +100,51 @@
         display: none;
     }
 
-    .brand__body {
-        padding: 148px 56px;
+}
+
+@media (min-width:426px) and (max-width:1140px) {
+    .item__text {
+        font-size: calc(6px + (10 + 10 * 0.7) * ((100vw - 426px) / 1140));
+    }
+
+    .item__textcolor {
+        font-size: calc(8px + (16 + 16 * 0.7) * ((100vw - 426px) / 1140));
+    }
+
+}
+
+@media (max-width:425px) {
+    .offer__wrap {
+        flex-wrap: wrap;
+        transition: all 0.5s;
+    }
+
+    .offer__item {
         width: 100%;
     }
 
-    .brand__text {
-        font-size: 20px;
-        line-height: 24px;
+    .item__img {
+        width: 100%;
     }
 
-    .brand__textbold {
-        font-size: 38px;
-        line-height: 46px;
+    .item__img-acc img {
+        height: 111px;
+        object-fit: cover;
+    }
+
+    .text__accer {
+        top: 30%;
+        left: 30%;
     }
 
     .offer {
         margin-top: 65px;
     }
 
-    .text__accer {
-        top: 30%;
-        left: 27%;
-    }
-
-    .content {
-        padding: 0 2%;
-    }
-
-    .frame__text {
-        margin-bottom: 59px;
-        padding: 0 4%;
-    }
-
-    .frame__paragbtm {
-        font-size: 14px;
-    }
-
-}
-
-@media (min-width:550px) and (max-width:767px) {
-    .column__row {
-        flex-direction: row;
-    }
-
-    .card__img img {
-        width: auto;
-    }
-
-    .column__add {
-        left: 17%;
-        justify-content: start;
+    .card__column {
+        width: 100%;
+        margin-bottom: 3%;
+        transition: all 0.5s;
     }
 
 }
@@ -217,5 +173,13 @@
 
     .frame__email {
         max-width: 256px;
+    }
+
+    .frame__text {
+        margin-bottom: 59px;
+    }
+
+    .frame__paragbtm {
+        font-size: 14px;
     }
 }
