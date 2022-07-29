@@ -1,0 +1,78 @@
+.offer {
+    margin-top: 65px;
+}
+
+.offer__row {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.offer__wrap {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.offer__item {
+    margin-bottom: 30px;
+    width: 31.5%;
+    position: relative;
+}
+
+.offer__item-acc {
+    position: relative;
+}
+
+.item__body:hover .item__img {
+    filter: brightness(30%);
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.item__body-acc:hover .item__img-acc {
+    filter: brightness(30%);
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.item__img img,
+.item__img-acc img {
+    width: 100%;
+}
+
+.item__text {
+    @include txt (400, 100%, 120%, #FFFFFF);
+    text-align: center;
+}
+
+.text__women {
+    position: absolute;
+    top: 42%;
+    left: 25%;
+}
+
+.text__men {
+    position: absolute;
+    top: 42%;
+    left: 32%;
+}
+
+.text__kids {
+    position: absolute;
+    top: 42%;
+    left: 30%;
+}
+
+.text__accer {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+
+.item__textcolor {
+    @include txt (700, 150%, 180%, #F16D7F);
+    text-align: center;
+}
+
+@import "../scss/media";

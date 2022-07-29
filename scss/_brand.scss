@@ -1,0 +1,38 @@
+.brand {
+    background: #F1E4E6;
+}
+
+.center {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.brand__row {
+    display: flex;
+    align-items: center;
+}
+
+.brand__img img {
+    width: 100%;
+}
+
+.brand__body {
+    margin-left: 64px;
+
+}
+
+.brand__text {
+    padding-left: 16px;
+    @include txt (700, 32px, 38px, #222222);
+    border-left: 12px solid #F16D7F;
+}
+
+.brand__textbold {
+    @include txt (900, 48px, 58px, #222222);
+}
+
+.brand__textcolor {
+    color: #F16D7F;
+}
+
+@import "../scss/media";

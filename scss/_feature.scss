@@ -1,0 +1,41 @@
+.feature {
+    background: #222224;
+    padding: 104px 0;
+}
+
+.feature__row {
+    display: flex;
+
+}
+
+.feature__column {
+    max-width: 360px;
+    display: flex;
+}
+
+.feature__item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.feature__img {
+    flex: 1 1 auto;
+}
+
+.feature_body {
+    padding-top: 19px;
+}
+
+.feature__title {
+    @include txt (400, 19.96px, 24px, #FBFBFB);
+}
+
+.feature__text {
+    color: #FBFBFB;
+    font-weight: 300;
+    padding-top: 16px;
+}
+
+@import "../scss/media";

@@ -1,0 +1,121 @@
+.frame {
+    background-image: url(../img/subscribe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.frame__row {
+    display: flex;
+}
+
+.frame__figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 1 50%;
+}
+
+.frame__img {
+    margin: 97px 0 30px 0;
+}
+
+.frame__text {
+    @include txt (400, 20px, 24px, #222224);
+    text-align: center;
+    margin-bottom: 126px;
+    max-width: 360px;
+}
+
+.frame__item {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame__paragtop {
+    @include txt (700, 24px, 40px, #222224);
+    text-align: center;
+}
+
+.frame__paragbtm {
+    @include txt (400, 18px, 30px, #222224);
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.frame__form {
+    display: flex;
+    height: 49px;
+}
+
+.frame__email {
+    height: 100%;
+    width: 256px;
+    border: 1px solid #E1E1E1;
+    background: #E1E1E1;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    @include txt (400, 14px, 17px, #222224);
+    align-items: center;
+    opacity: 0.67;
+    padding: 0 22px;
+}
+
+.frame__btn {
+    height: 100%;
+    width: 100px;
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    @include txt (400, 14px, 17px, #F26376);
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.frame__btn:hover {
+    background: #F16D7F;
+    color: #FFFFFF;
+}
+
+
+.sec {
+    background: #222224;
+}
+
+.sec__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec__copy {
+    @include txt (400, 16px, 19px, #FBFBFB);
+    margin: 30px 0;
+}
+
+.sec__menu {
+    display: flex;
+}
+
+.sec__menu i {
+    color: #000;
+    background: #fff;
+    margin-left: 7px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec__menu i:hover {
+    background: #F16D7F;
+    color: #fff;
+}
+
+@import "../scss/media";
